@@ -1,0 +1,263 @@
+﻿Identifiant,Résumé,Statut,Version ciblée,Version du produit
+0052175,Saisie rapide mouvement Ferry > enregistrer = Error HTTP 500,nouveau,4.9.1,4.9.0
+0052702,FERRY > Saisie rapide mvt ferries > Enregistrer mvt = message PAQ indispo alors que libre,nouveau,,4.9.0
+0052585,Param POP > saisie champs Remarques au max capacité saisie possible > enreg = erreur exception technique,nouveau,4.11,4.9.0
+0052700,FERRY > Ecran saisie rapide mvt vigie > pb affichage de l’écran en entier,nouveau,,4.9.0
+0052699,Exploitation > Paramétrer POP > Fenêtre non entière en consultation (modif ok),nouveau,,4.9.0
+0052165,FERRY > POP  modifier annonce > changer de jour ou annuler je perds mes modif > l’annonce du départ disparait du POP graphique,nouveau,4.9.1,4.9.0
+0052632,FERRy Saisie rapide mvt vigie > pourquoi certaines dates apparaissent en jj/mm/aaaa et d’autres restent vides ?,nouveau,4.9.1,4.9.0
+0052630,FERRY Saisir rapide mvt vigie > Modifier + Réaliser mouvment = internal Error HTTP200 (ok si enreg puis remodif et realise),nouveau,4.9.1,4.9.0
+0052608,FERRY Ecran rapide vigie mvt > modifier+realiser mvt = erreur Http500 (OK si enregistrer avant),nouveau,4.9.1,4.9.0
+0052623,DS maj date heure départ = message faux heure doit etre supérieure à date précédente (cas NR),nouveau,,4.9.0
+0052573,FAL5 Equipage :  liste type de pièce identité > le choix ‘ Autre Pièce avec photo’ a disparu,nouveau,,4.9.0
+0052617,FERRY > si que mvt Entrée > on ne peut pas créer mvt Sortie dans Saisie rapide mvt ni dans tab mvt = Erreur technique,nouveau,4.9.1,4.9.0
+0052605,Mouvements > menu contextuel gauche > navigation entre les FAL si retour sur Mouvement xxx ou Compléter mvt = Erreur HTTP404,nouveau,4.9.1,4.9.0
+0052593,FERRY POP > le trigramme de la fiche navire pas pris en compte dans Zoom et Imprimer POP,nouveau,4.9.1,4.9.0
+0052158,FERRY > POP > imprimer 7 jour = erreur exception technique,nouveau,4.9.1,4.9.0
+0052534,Dossier Escale > Détention navire > date de fin détention dans le futur / pb affichage,nouveau,4.9.1,4.9.0
+0052524,DMS > Saisie des escales avec dates > enreg = OK > si on retourne sur la DMS = dates VIDEES,nouveau,4.8.3,4.8.2
+0052631,Anonymisation Via IHM: err 500,nouveau,4.9.1,4.9.0
+0052535,Port de Calais > Navires disparus  depuis dernière maj base LLYOD,résolu,A FAIRE (hors klee),4.8.2
+0052533,Créer DS > PAQ de sortie faux et message alerte PAQ indispo non justifié,nouveau,4.9.1,4.9.0
+0052110,PJ pièce jointe > menu dossier escale ou Menu demande > Clic sur PJ = mess erreur Etat HTTP 404 found,nouveau,,4.8.2
+0052173,Saisie rapide mouvement ferry > comportement calendrier changé,nouveau,4.9.1,4.9.0
+0052192,Menu Mouvements  Page x > Action sur mouvement + RETOUR > pb de chainage le retour ne se fait pas sur la pagex d’appel,nouveau,4.9.1,4.9.0
+0052504,Demande : utilisation d'un PAQ indisponible => les dates et motif d'indispo ne s’affichent pas dans le message d'erreur,nouveau,4.9.1,4.9.0
+0052543,"Affichage des PAQ > l'affichage n'est pas dans l'ordre des numéros ex: P1, P10, P2",commentaire,,4.8.2
+0052517,ISPS et DMS : avoir les 10 dernière escales dans le même ordre  chronologique,à chiffrer,4.10,4.8.2
+0052216,Evolution des fichiers de log à la demande du centre serveur.,à chiffrer,4.10,
+0051384,CLONER Demande > cloner les Fal de la demande origine > La FAL WASTE n’est pas clonée alors que demandée,à chiffrer,4.10,4.8.1
+0050740,"ISPS > Ordre des escales différent entre affichage FAL, export et message T2K car pas d’heure pour les hiéarchiser",à chiffrer,4.10,4.7.3
+0047655,ISPS > Mouvement Cargo > menu contextuel gauche > accès limité aux formalités,à chiffrer,4.10,4.6.0 ISPS
+0046971,[T2k] Amélioration des notifications par mail des erreurs sur les messages T2k,à chiffrer,4.10,4.4.4
+0042916,[code] T2k test inutile donc probablement faux.,à chiffrer,4.10,4.0.3
+0047096,[MD] la séquence SEQ_CODE_MD_ONU ne semble pas utilisée,à chiffrer,4.10,4.5.0
+0052541,Mouvement réalisé > pouvoir modifier les postes et moyens,nouveau,,
+0025537,Evol> Pouvoir rectifier erreur sur mouvement réalisé,nouveau,,v3.0.2
+0052526,Evol : Elargir RECHERCHER à plus de 3 mois,nouveau,,
+0052521,Evol : rendre visible le Certificat d'ASSURANCE obligatoire dans le tableau de bord de la demande,nouveau,,
+0052520,Evol : intégrer la Change Crew List dans Escaleport plus visible,nouveau,,
+0052518,Question ports : D/H arrivée prochain port pas connue,nouveau,,
+0052053,La consultation du site visiteur provoque la saturation immédiate de la mémoire,commentaire,4.9.1,4.9.0
+0052249,FAL6 > Code pays naissance inconnu > Escaleport ZZ mais code ZZ pas trouvé dans ISO 3166-1,nouveau,,4.9.0
+0052130,Suppression de la librairie Guava,nouveau,,
+0050413,PROD > message NCA_72h envoyé à Trafic2000 après arrivée du navire !,à traiter,4.9.1,4.7.2
+0052096,"[DAPAQ] la disposition des onglets n'est pas ""jolie"" pour les profiles non capitainerie",à traiter,4.9.1,4.9.0
+0052093,[DAPAQ] err taglib dans le cadre décision capitainerie.,à traiter,4.9.1,4.9.0
+0052079,La consultation des notifications ne fonctionne pas parce que l'url utilise encore spring,à traiter,4.9.1,4.9.0
+0052081,Dans le rapport de test usine le profil visiteur est KO.,commentaire,4.9.1,4.9.0
+0052043,Pas d'alerte sur le changement de config apache dans le manuel d'installation de la 4.9.0,à traiter,4.9.1,4.9.0
+0050389,"[authentification] En cas de timeout cerbère, la session suivante ne tient pas compte du nouvel utilisateur",résolu,4.9.0,4.7.2
+0052078,[ferry] la création d'un mouvement de sortie à partir d'un mouvement d'entrée pose plein de problèmes d'utilisation.,nouveau,2020,3.4.0
+0045378,Evol T2K > NCA_FAL7 > Règle contactDetail du pragraphe §6.2.8.2. Bloc contact MD obligatoire que si MD,nouveau,2020,4.3.0
+0046544,Faille de sécurité - librairies Struts 3.10 vulnérables,résolu,4.9.0,4.5.0
+0051205,Mise à jour de la configuration du bouchon cerbère.,résolu,4.9.0,4.8.1
+0050877,Profil AP > Dossier escale > accès FAL5-6 = erreur technique au lieu message “pas le droit” / pas toutes FAL dans tab bord deman,réouvert,4.9.1,4.8.0
+0039066,[FIXME][Tableaux des demandes] EVOL : ajouter AFFICHER toutes les demandes nécessitant une action capitainerie,nouveau,4.11,3.3.4
+0052023,Créer mouvement navire local > saisie poste-moyens + mvt prévu> enreg OK > retour = erreur exception technique,nouveau,,4.8.2
+0052020,NCA_Port statut non conforme “Business Error : L'identifiant d'escale est dÃ©jÃ  existant pour une escale d'un autre navire”,nouveau,,4.8.2
+0049061,périmètre de migration de la 4.9,traité,4.9.0,
+0051679,[ISPS] import excel un locode mal formaté provoque une exception technique,résolu,4.8.2,4.6.1
+0051785,DS le controle lors de la maj de l'ETD tient compte de l'ETA mais pas de l'ATA.,résolu,4.8.2,4.8.1
+0051918,Demande Sortie > maj D/H départ prévue IMPOSSIBLE car fait référence à une date demande précédente bien que ANNULEE (déhalage),nouveau,,4.7.4
+0047921,[T2k] le tirant d'eau n'est pas correctement contrôlé dans les formulaires et provoque des erreurs dans le message Departure,nouveau,2020,4.4.4
+0051910,EVOL : permettre profil Administrateur de remettre un mouvement de état MR à état MC,nouveau,,
+0051823,PROD Caen > erreur technique Mouvemnt Sortie ferry ARMORIQUE 09/02/20 PB manque demande-decision capitainerie,résolu,,4.7.4
+0051793,Supprimer le champ consignataire suivant du formulaire DAPAQ flash.,nouveau,4.11,4.7.4
+0051787,[sécurité] suppression de l'impression des Escales et suppression de la dépendance à Birt,à chiffrer,4.10,4.8.0
+0051788,[sécurité] mise à niveau de la librairie Log4J,nouveau,4.11,4.8.0
+0049126,Profil AP AUTORITE PORTUAIRE> Demande Tab formalités : ISPS a disparu de la liste OR devrait apparaitre avec mess PAS DROIT,nouveau,,4.6.1
+0051723,FERRY POP vpm > on ne peut pas insérer d’annonces de Déhalage ni annuler des annonces si annonces à cheval jours différents,nouveau,,4.7.4
+0039083,[FIXME] EVOL : besoin de voir les navires au mouillage,nouveau,4.11,3.3.4
+0039065,[FIXME][Tableaux des mouvements] EVOL: ajouter AFFICHER tous les mouvements en attente d'une action capitainerie,nouveau,4.11,3.3.4
+0021522,Accès base école pour les ports externes,commentaire,,v2.9.7
+0048967,Les locode obsolètes sont remontés dans l'autocomplétion,nouveau,2020,4.6.1
+0051594,Modifier les pages de saisie des FAL5 et 6 pour éviter les requêtes trop grosse,nouveau,4.11,4.7.4
+0051610,Recentrer le dossier d'escale au coeur de l'utilisation d'Escaleport,nouveau,2020,3.3.4
+0051705,ISPS > PRE-REMPLIR > le code de l’installation du port provenance = 0000,nouveau,,4.7.4
+0021839,"Mauvaise réception des messages T2k ""navires bannis""",à chiffrer,4.10,v3.0.0
+0049299,[ISPS] : difficulté de saisie des LOCODEs dans les fichiers excel => modifier les formes acceptées.,à chiffrer,4.10,4.6.1
+0049062,[FAL5/6] évolution m2m,à chiffrer,4.10,4.6.1
+0051597,[migration] mise à niveau des dépendances javascript,à chiffrer,4.10,4.8.1
+0051612,Fusionner les IHM des demandes et des mouvements,nouveau,2020,
+0050962,Evol : Prévoir  taille mini en largeur des écrans à défaut d’une adaptation auto liée à la taille fenêtre (scoll à droite),nouveau,4.11,4.8.0
+0045277,STATS > Fiche marchandises>Fret59a + cargaison choix Marchandise conteneurisée> Modifier ficher = perte des infos contene,commentaire,2020,4.3.0
+0045282,STATS > Fiche march MULTI FRET>Poids marchandises Pas d’arrondi sur les chiffres après la virgule EX : 172.41379310344828,commentaire,2020,4.3.0
+0050945,[FERRY][vigie calais]  aucune contrainte ne permet que  ETAmaj > ETD ce qui peut provoquer des erreurs (ex: NCA_Port rejeté),nouveau,2020,4.7.2
+0050693,FAL5-6 > Exporter en csv > ordre dans le csv différent de l'ordre d'affichage,nouveau,2020,4.7.3
+0050452,Menu Liens > permettre de mettre des liens sur URL ET Fichiers en public et en restreint à l’instar des avsi-consignes du menu a,nouveau,2020,
+0050199,EVOL : solution au PB des compagnies ferries ne pouvant saisir les  déclarations que si POP VPM,nouveau,2020,4.7.1
+0050088,ISPS ecran > Modifier = la taille de l’écran est agrandie partie droite tronquée,nouveau,2020,4.7.1
+0049994,Messages T2K ferries : ATAToPortOfCall vide dans les NCA_FAL5 et NCA_FAL6 même lorsque l'ATA est connu,nouveau,2020,4.7.1
+0047558,faire apparaître l'état des formalités dans le tableau de bord des demandes.,commentaire,2020,4.6.0 ISPS
+0047185,[FAL7] mauvais contrôle de l'unité de mesure des quantités,nouveau,2020,4.5.1
+0047095,[FAL7] le libellé de la table code_md_onu ne permet pas de stocker la description complète des MD [FIXME],nouveau,2020,4.5.0
+0047094,[FAL7] le champ Description de la marchandise doit permettre la saisie de 350 caractères.,nouveau,2020,4.5.0
+0047061,[MD] permettre la mise à jour des listes de codes ONU et sous classe dans le menu administration.,nouveau,2020,4.4.4
+0046974,"[T2k] Dans la liste des messages envoyés, l'action réémettre doit toujours être disponible pour les administrateurs",nouveau,2020,4.5.0
+0046956,[date] contrôler que les dates saisies sont compatibles avec les messages T2k,nouveau,2020,4.4.4
+0046947,[admin] gestion des nomenclature: suppression d'un item de nomenclateur > erreur technique,nouveau,2020,4.5.0
+0046899,[CNIL : anonymisation] permettre un paramétrage de la fréquence et de la durée en fonction des environnements.,nouveau,2020,
+0046812,[Waste] Les déclaration ne comportant que le Summary (sans liste de déchets) sont refusée par T2k,nouveau,2020,4.4.2
+0038343,FAL MD > ajouter des contrôles sur toutes les classifications et pas que IMDG,nouveau,2020,3.3.4
+0025544,Evol > Ferry POP > ajouter champ MD dans créer annonce,commentaire,2020,v3.0.2
+0045013,[chainage] Corriger les calculs pour le contrôle de la disponibilité des postes à quai.,nouveau,2020,3.3.4
+0029079,Donner la possiblité à la capitainerie de supprimer un navire local ou temporaire.,nouveau,2020,V3.1.3
+0049866,EVOL : pb lors MAJ ETA qui devient supérieure à la date ETD prévue,nouveau,2020,
+0049555,EVOL : prévision ENTREE maj des dates : alerte et renvoi pour report également sur la SORTIE si existe,nouveau,,4.6.1
+0048745,[T2k] certains navire non OMI doivent transmettre des messages à T2k [FIXME],nouveau,2021,3.3.4
+0048744,recherche de navire: permettre une recherche sur l'ensemble des référentiels.,nouveau,2021,4.6.1
+0045631,Demande Entree vpm > maj ETD > repasse ETA affectee en ETA origine dans les tab demandes et mvts,à traiter,2020,4.4.0
+0051202,EVOL gene : Gestion POP ferry améliorations d'utilisation,nouveau,2020,
+0022246,Ferry > maj dans Ecran vigie font des maj dans le POP prévisions : contraire aux règles (cf DAF),accepté,,v3.0.0
+0044091,[POP] erreur technique si date de référence vide.,chiffré,2020,3.3.4
+0023571,Accéder en lecture au POP à partir de l'écran mouvement rapide,nouveau,,V1.7.5 (Lot5b)
+0025492,Evol >Ferry POP visiblité mouvements associés,nouveau,,v3.0.0
+0039780,Ferry > POP > importer annonces > si date sortie=date entrée alors PAS de message d’erreur et génère erreur affichage POP graphi,nouveau,,3.3.4
+0045000,POP Ferry > enregistrer AJOUTER un contrôle d’alerte si la date de sortie n’a pas été saisies,nouveau,2020,4.2.2
+0025545,Evol > Ferry POP pouvoir afficher version souhaitée (gestion des versions POP),nouveau,,v3.0.2
+0051197,EVOLCONCEP : MOUVEMENTS revoir ergonomie et faciliter accès comme demandes,nouveau,2020,
+0018371,"Dans mouvement, le consignataire n'a pas accès à la liste des passagers et de l'équipage.",accepté,,v2.9.3
+0030316,Mouvement > inverser ordre saisie date entrée port et date pilotage,nouveau,,V3.1.4
+0051194,EVOL gene : CONTACTS améliorer l'utilisation,nouveau,2020,
+0046880,EVOL : Menu contacts > ajouter critères recherche  et pouvoir exporter/ importer des contacts (entre ports),nouveau,,4.4.2
+0025479,Evol > Contact email 50 caractères max,nouveau,,v3.0.2
+0025539,Evol> Tableau contacts ajouter colonne Activité,nouveau,,v3.0.2
+0036081,trier le tableau des contacts par ordre alphabétique.,nouveau,,
+0051192,EVOL Conceptuelle > Occupation des quais > Même représentation graphique entre Ferry et cargo,nouveau,2020,
+0036303,Erreur technique si avis Capitainerie donné avant la saisie des postes et moyen.,nouveau,2020,3.3.4
+0040877,Tab mouvements > Annuler mouvement de sortie ferry > On ne peut plus créer de nouveaux mouvements  D ou S à partir du mouvement,nouveau,,3.3.4
+0042965,Avis capitainerie > Alerter si saisi d'un PAQ ou heure sans avoir donner d'avis.,nouveau,2020,3.3.4
+0043394,Avis D/H affectée > un message d’alerte PAQ indispo affiché alors que hors chevauchement,nouveau,,4.0.4
+0044674,Anonymisation des données : supprimer uniquement le contenu des messages envoyés T2K mais pas la liste des messages,nouveau,,4.2.2
+0045854,EVOL : mess alerte à prévoir au moins à la confirmation demande pour les FAL clonées et non envoyées T2K,nouveau,,2020
+0044759,Demande Cloner > clonage Cargaison + FA5+MD+ISPS+Dechets > seuls message NCAport+FAL1+FAL5 générés,nouveau,2020,
+0045153,[Poste et moyen] Ajouter une alerte lorsqu'on signale un niveau ISPS suppérieur à celui du quai demandé.,nouveau,2021,4.3.0
+0050982,PRODUCTION > Import fichier de plus de 50 caractères = erreur exception technique,nouveau,2020,4.7.2
+0050878,Dossier escale > PJ > Nature PJ > retirer le choix “incident” redondant avec la rubrique incidents escale,nouveau,2020,4.8.0
+0051030,Tab bord demande et liste formalités Dossier escale > Si demande annulée > les formalités sont indiquées à Saisi au lieu de Annu,nouveau,2020,4.8.0
+0050978,Autres fonctions > Rechercher matière dangereuse > les codes et début de chaine ne ressorte pas de la recherche,nouveau,2020,3.4.0
+0050863,Evol > Transfert demande autre consignataire > si condfidentielle mettre mess alerte au moment du trf et pas lors MAJ consignata,nouveau,,4.8.0
+0050742,ISPS > Pré-remplir : faut-il dupliquer également les activités de navire à navire ?,nouveau,,4.7.3
+0050047,Paramétrer liens administrateur > nombre de liens limité à 5 ce qui est trop faible + une erreur technique,nouveau,,4.6.1
+0049912,compatibilité des fichiers FAL5/6 Escaleport avec les modèles OMI FAL,nouveau,,A FAIRE (hors klee)
+0047709,FAL ISPS et DMS >Ajout ou Modif  > PAS le notification alerte de modif aux autres profils ayant acces (dans tab demande en jaune,commentaire,2020,4.6.0 ISPS
+0049654,[navires attendu][navire à quai] erreur technique sur certaines recherches impliquant la pagination,nouveau,2020,4.6.1
+0049258,NCA_PORT Rochefort DE2019000211 non conforme / Port  FI-Mantyluoto/Pori non connu de Trafic2000,nouveau,,4.6.1
+0046760,[FAL ISPS] ajouter un contrôle sur le format de l'OMI compagnie qui devrait être un entier 0-9999999,à chiffrer,4.10,3.3.4
+0048771,EVOL PROFIL SURETE :Pouvoir rendre effectif le profil sûreté + définir liste des fonctions accessibles,nouveau,,4.6.1
+0048965,Rendre les liens de téléchargement des modèles de formalité accessibles sans authentification.,nouveau,2020,4.6.1
+0048746,le numéro d'immatriculation du navire n'apparait pas dans la description du navire du tableau de bord de la demande,nouveau,2021,4.6.1
+0047669,Ajouter contraintes dans le fichier modèle excel ISPS,nouveau,,4.6.0 ISPS
+0044602,[FAL7] impossible de saisir le nombre de colis avec FireFox 60.2.2esr (64 bits),chiffré,2020,4.2.2
+0044230,[MVT] la consultation d'un mouvement avec passage d'écluse provoque des messages dans le log d'erreur.,chiffré,2020,4.0.6
+0041604,Retour message T2K staut en échec suite coupure T2K délais émission trop courts,chiffré,2020,3.3.4
+0040748,Dossier escale: Les formalités des demandes de sorties annulées apparaissent toujours dans la liste.,chiffré,2020,3.3.4
+0036313,Ajouter la configuration d'accès au PJ à la page de gestioen des profils.,chiffré,2020,3.3.4
+0047670,Ergonomie écran accès import ISPS,nouveau,2020,4.6.0 ISPS
+0047676,ISPS ecran > Valider/Refuser : pas d’info sur l’action effectuée (comme consolidée),nouveau,2020,4.6.0 ISPS
+0047636,ISPS > Exporter > liste des 10 dernières escales > ordre chronologique inversé voire MELANGE,commentaire,4.6.1,4.6.0 ISPS
+0047594,[logs prod] erreur hibernate à qualifier...,nouveau,2020,4.4.4
+0047593,[logs prod] SQL détection d'interblocage,nouveau,2020,4.4.4
+0047524,[admin] gestion indispo des PAQ : alertes inutiles et perturbantes pour des indispo dans le passé,nouveau,2021,3.4.0
+0044373,[Perf] utilisation mémoire et CPU anormale en production,commentaire,A FAIRE (hors klee),4.0.6
+0042389,"[TESTS] Saisie de deux matières dangereuses avec le mê numéro ""ONU"" => mettre à jour le cas de test.",nouveau,,3.3.4
+0046879,EVOL : savoir si le navire provient d’un port Hors Shengen (procédures d’entrée différentes),commentaire,,4.4.2
+0046828,Ferry > POP vpm mvt avec MD > Compléter mvt MD=oui passage à NON > l’icone MD + la FAL MD ne sont pas retirés,nouveau,,
+0046389,EVOL Demande > Transfert consignataire suivant : ajouter un contrôle à l’enregistrement O/N,nouveau,,
+0042717,Dossier escale > Ajout PJ incident escale = message erreur type pj incident / V4-2-2 report incident autres escales,nouveau,,3.3.4
+0045867,[stat] le formulaire de modification d'un chargement ne présente pas les valeurs initiales du chargement.,nouveau,2021,3.3.4
+0045673,Ferry Ecran Saisie rapide mouvement > MAJ PAQ > graphiques POP et Occup quais pas mis à jour (pas de report sur le nouveau paq),nouveau,2020,4.4.0
+0044638,Evol T2K > FAL ISPS ajouter un contrôle lors enreg pour avoir saisie d’un numéro Inmarsat que une fois,nouveau,2020,4.2.0
+0033947,[chainage] En cas d'ajout ou suppression d'une DH le PAQ de départ du mouvement suivant (DH ou DS) doit être mis à jour .,nouveau,2020,V3.3.3
+0041614,"Dans l'écran FAL1 de sortie le champ ""Qté à bord"" n'est pas obligatoire pour certains types de navires => REGLE DOUTEUSE",nouveau,2020,3.6.0
+0044927,Evol T2K > pouvoir annuler une FAL WASTE,nouveau,2020,4.2.0
+0044640,[T2k] FIXME : Permettre l'annulation d'une FAL ISPS,nouveau,2020,4.2.0
+0045344,Evol : « nettoyer » les vieilles escales passées au travers de l’anonymisation,nouveau,A FAIRE (hors klee),4.2.2
+0041605,Anonymisation Capitaines saisis de la FAL1 mais pas Capitaines Ferries issus de la liste : Précisios dans le DAF à faire,nouveau,,
+0042959,Historique demande : ajout de l'info indiquant qui a créé la demande (DAPAQ ou DAPAQ Flah),nouveau,2020,3.3.4
+0025559,Evol > Gestion des demandes : pouvoir transférer la demande à 1 à n consignataires successifs.,nouveau,2020,v3.0.2
+0042366,[référentiel] référentiel des locodes obsolète,nouveau,A FAIRE (hors klee),3.3.4
+0044712,"[Perf] requêtes Oracle trop ""gourmandes"" sur le journal des messages",nouveau,A FAIRE (hors klee),4.0.6
+0042475,problème d'encodage des nouvelles chaînes sur différentes pages,à traiter,A FAIRE (hors klee),4.0.3
+0039873,STATS > demande Soes de faire cumul port en lourd et jauge brute pour l’ensemble des escales F1’ et F2’,nouveau,2020,3.3.4
+0040517,Contacts > base test 2 sociétés AP créées : impossible de supprimer AP,nouveau,A FAIRE (hors klee),3.3.4
+0042396,Erreur technique lor de l'ajout d'un avis à une demande,nouveau,2020,3.3.4
+0042387,Possibilité d'ajouter zero matière dangereuse à une DAPAQ,nouveau,2020,3.3.4
+0042876,[Liens] Administration> supprimer la limite du nombre de lien locaux,nouveau,2020,3.3.4
+0035722,PB locode en ZZ88P ou ZZ88Q ou FR88Q non reconnus par Trafic 2000,nouveau,A FAIRE (hors klee),
+0040781,POP > impression > couleur prevision cargo transformée sur PAQ Ferry en couleur bleu mouvement +traits,à recetter,4.2.0,3.3.4
+0043094,Variabiliser l'entrée jndi de la ressource conteneur jdbc,à chiffrer,2020,4.0.4
+0042469,Owasp CSRFGuard obsolète et pas satisfaisant,nouveau,,3.3.4
+0041353,Admin Tech Central > Param port CH > Ajout d’1 PAQ ferry> Enreg = erreur technique,commentaire,,3.3.4
+0043196,[DAF] RGG-GENDEM001 non prise en compte dans l'appli,nouveau,,4.0.4
+0043195,[DAF] Règle RGG-DQF003 non respectée dans l'appli => voir ce qu'il faut faire,nouveau,,4.0.4
+0042898,[SEM] le serveur FTP du SEM ne connait pas l'instruction REIN,nouveau,,3.3.4
+0028216,FAL1 > consignataire et capitainerie n'accèdent plus aux PJ divers,nouveau,,3.0.3
+0042868,[TIMAD] les dates transmises dans DONNEES_ESCALES sont en UTC (super ou pas?).,nouveau,,4.0.3
+0042783,Stats > fiche Multi marchandises > enregistrer et cloner = erreur exception technique,nouveau,,4.0.3
+0042796,Dossier Escale > “Stats marchandises-Fiches saisies”=0 alors que 1 fiche a été saisie,nouveau,,3.3.4
+0042789,Stats > Créer fiche Multi Marchandises > Saisie faiche > Enregistrer et continuer > Saisie nature 2nde fiche = erreur exception,nouveau,,3.3.4
+0042629,Intégrer les mises à jour des LOCODE via le service de l'EMSA.,nouveau,,
+0042393,Gérer POP > tableau POP > Action supprimer annonce > Aucun message d’alerte avant suppression,nouveau,,3.3.4
+0042407,"Cloner DAPAQ > Cloner toutes les FAL ""coché""> les FAL inexistantes d'origine sont crééés à vide dans la FAL clonée",commentaire,,3.3.4
+0042462,Question accès visiteurs pour base Integration,traité,,4.0.2
+0042341,"[TdB] Saisir le consignataire courant comme ""Consignataire suivant"" provoque plein de problèmes",nouveau,,3.3.4
+0041711,Mouvement Entrée  mvt ME réalisé  > occup quai : la ligne bleue est bornée à date prévue au lieu de inconnu,nouveau,,3.6.0
+0041224,[HEBERGEMENT] Une fuite de mémoire oblige le centre serveur à redémarrer l'application régulièrement.,nouveau,,3.3.4
+0026664,Message alerte sur disponibilité du PAQ : non conforme,à traiter,,V3.1.1
+0026563,Tableau des mouvements > affiche mauvais PAQ si annulation mvt ferrie par Ecran vigie,commentaire,,V3.1.1
+0023737,Marquer une DAPAQ confidentielle ne crée par d'alerte sur la demande dans le tableau de recherche.,commentaire,,V2.0.0 (Lot6)
+0022464,"DAF > RGP-PJ004""Le système ne permet d’ajouter qu’une pièce jointe par incident"" > on peut en saisir plusieurs",accepté,,v3.0.0
+0021877,Problème FTP -alerte du CS St Malo,accepté,,v3.0.0
+0018370,Profil capitainerie / AP / Vigie,commentaire,,v2.9.2
+0023015,FAE2016-015 Annulation d’un mouvement MAR de sortie Ferry à partir Ecran vigie supprime mouvement entrée prévu non annulé,accepté,,v3.0.0
+0022400,Profils Concessionnaire Exploitant + Consignataire  = accès bloqué,commentaire,,v3.0.0
+0025473,Définir le format des fichiers d'import des formalités GUP,nouveau,,v3.0.2
+0039100,EVOL : pouvoir créer une  DAPAQ avec un navire TBN pas encore connu,nouveau,,3.3.4
+0026459,Demande consignataire > si 1 remorqueur demandé pas affiché dans Tableau demandes,à traiter,,V3.1.1
+0040727,Question : Quand transmettre exactement les FAL5-6 à Trafic2000,nouveau,,3.5.1
+0040605,Demande > Tableau de bord > source > Mettre Importé si’il y a eu un import au lieu de saisi,nouveau,,3.3.4
+0040391,site OMI FAL qui indique que les FAL ont changées au 01/01/2018,nouveau,,3.3.4
+0039831,Tableau des mouvements > trou dans la numérotation si mouvements annulés auto par annulation des demandes,nouveau,,3.3.4
+0039818,Stats > A Rejouer n'apparait dans le tableau des fichiers stats pas suite à une modification de l'escale stats,nouveau,,3.3.4
+0023904,Pouvoir gérer par module Ferry les navires OMI à lignes régulières autres que type transbordeurs,commentaire,,V2.0.2 (Lot6c)
+0039105,"EVOL : Menu Occupation des quais : permettre d’accéder directement aux dossiers (demandes, mouvements, escales) / Améliorer l’er",nouveau,,3.3.4
+0039084,PNA (Ports Normands Associés) : souhaite intégrer dans Escaleport un module « light » Droits de port,nouveau,,3.3.4
+0039081,Demande de Sortie > Avis Capitainerie « VPM » > ’écran avis>rubrique « déchets »> conserver ou pas champ Envoi message déchet dé,nouveau,,3.3.4
+0039064,Tableaux des escales : ajouter critères recherche « non consolidée »,nouveau,,3.3.4
+0037487,[MD] anno et évol liées à une meilleurs compréhension du formulaire MD,commentaire,,3.3.4
+0038344,FAL MD > champ « classification DPG » est ce le bon libellé,nouveau,,3.3.4
+0037516,Mettre à jour le document du modèle de données en ajoutant les tables GU_*,nouveau,,3.3.4
+0025546,Admin profils : certaines case à cocher ne servent à rien.,nouveau,,v3.0.2
+0023906,Exports par profil > pas les résultats attendus par profil,commentaire,,V2.1.3 (Lot6g)
+0022535,"Historique : ligne ""Modification société lamanage"" attribuée à un utilisateur est créée à chaque fois que cet utilisateur saisi",à traiter,,v3.0.0
+0022086,"Champs ""marchandise déclarée"" renseignés à partir menu Cargaison  mais n'apparaissent pas à l'impression du dossier d'escale.",à chiffrer,,v3.0.0
+0022085,Imprimer dossier escale > les champs inspection sont vides,commentaire,,v3.0.0
+0022084,Compléter mouvement > MD NON passe à OUI > maj dans Dossier Escale mais pas maj dans Imprimer Dossier Escale,commentaire,,v3.0.0
+0018380,Copie des formalités de DE vers DS,commentaire,,v2.9.2
+0023941,[Anomalie documentaire] DAPAQ : incohérence des données,à chiffrer,,v3.1.0
+0027474,FAL1 > Nouveau champ commentaire Capitainerie > devrait déclencher l’ajout d’une ligne dans les notifications d’alerte du tablea,nouveau,,V3.1.2
+0025547,Préalimenter le module stat avec les informations de l'escale (ex: FAL2),nouveau,,v3.0.2
+0025543,Tableau mouvements : ajouter un bouton jour 'J',nouveau,,v3.0.2
+0025489,Evol > accès Smartphones et tablettes,nouveau,,v3.0.0
+0025494,Ajouter certaines infos (spécifiques ferry) à l'historique,nouveau,,v3.0.0
+0025541,Evol > Stats mettre une alerte pour saisir champ rotations si saisie cumulée,nouveau,,v3.0.2
+0025549,Calais: la société JP demande interfaçage de leur SI voyageurs avec Escaleport,commentaire,,v3.0.2
+0023204,Messages: ils devraient être séquentiels mais il y a des trous dans la numérotation,commentaire,,V1.4.0 (Lot3a)
+0034639,"Tableaude bord > la case ""terminé"" d'une formalité ne doit pas être cochable si le formulaire correspondant n'est pas rempli.",nouveau,,V3.3.3
+0037007,Ajouter message NCA_Mouill_rade pour envoi Trafic2000,nouveau,,3.3.4
+0034781,Statistiques: comment modifier l'état (définitif ou provisoire) d'un fichier généré?,nouveau,,
+0036295,Problèmes de configuration des extensions de fichiers autorisées pour les types de PJ,nouveau,,
+0036474,Décentralisation de la gestion des comptes utilisateurs,nouveau,,
+0021517,Lors de la création d'une societe AP il ne devrait pas être nécessaire de lui affecter l'activite consignataire.,à traiter,,
+0036082,Pouvoir sélectionner les destinataires des infos accueil administrateur,nouveau,,
+0034334,Tableau des demandes > les numéros externes AP+ n’apparaissent pas,accepté,,V3.3.2
+0035076,Tests détaillés FAL5,nouveau,,V3.3.3
+0035505,Le nom des pièces jointes est très peu contraint et les fichiers sont stocké tels quels sur le disque.,nouveau,,V3.3.3
+0023849,Supprimer PAQ et des conséquences,commentaire,,V2.0.2 (Lot6c)
+0019952,Permettre d'imprimer l'ensemble des pages dans des tableaux de résultat des recherches,commentaire,,v2.9.5
+0023910,Correspondant Stats > Créer fic stats > pouvoir supprimer un fichier créée par inadvertance,commentaire,,V2.0.2 (Lot6c)
+0023902,Créer mouvement navire local > saisie annulée > mouvement quand même créé état MC en ne pouvant pas être annulé,commentaire,,V2.0.2 (Lot6c)
+0023903,Exports > Manque les champs personnalisés de la fiche navire,commentaire,,V2.1.3 (Lot6g)
+0023881,"Créer fichiers stats > ne plus proposer les choix Eura* dans la liste ""type de fichier""",commentaire,,V2.0.2 (Lot6c)
