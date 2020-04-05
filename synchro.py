@@ -17,6 +17,31 @@ Les tickets supprimés pourraient être placé dans un onglet "terminés"
 from issue import Issue
 from backlog_store import loadBackLog, saveBackLog
 from tracker_store import loadTrackerIssues
+import re
+
+def versionOrderKey(versionName):
+    if versionName.strip() == '':
+        key = "ZZZZ"
+    # version sous la forme 4.10
+    # transformée en 004010000
+    elif re.match(r"^\d+\.\d+$", versionName):
+        (M,m) = versionName.split(".")
+        key = f"{M:>03}{m:>03}{0:>03}"
+    # version sous la forme 4.8.3
+    # transformée en 004008003
+    elif re.match(r"^\d+\.\d+\.\d+$", versionName):
+        (M,m,p) = versionName.split(".")
+        key = f"{M:>03}{m:>03}{p:>03}"
+    # version sous la forme 2020
+    # transformée en 9999999992020
+    elif re.match(r"^\d+$", versionName):
+        key = "999999999" + versionName
+    # autre version ne contenant pas que des chiffres
+    else:
+        key = 'Z' + versionName
+    print(f"[{key}]")
+    return key
+
 
 def updateBackLog(backLog, tracker):
     # Suppression des tickets du tracker dont le statut est fermé ou résolu.
@@ -41,7 +66,22 @@ def updateBackLog(backLog, tracker):
     for issue in tracker.values():
         newBackLog.append(issue)
 
-    return newBackLog
+    # repositionnement des tickets mal positionnés par rapport à leur version.
+    versions = {}
+    # regroupement des tickets par version
+    for issue in newBackLog:
+        if issue.version_ciblee not in versions:
+            versions[issue.version_ciblee] = []
+        versions[issue.version_ciblee].append(issue)
+    # tri des versions
+    versionNames = versions.keys()
+    versionNames = sorted(versionNames, key = versionOrderKey)
+    print(versionNames)
+    orderedBackLog = []
+    for versionName in versionNames:
+        orderedBackLog += versions[versionName]
+
+    return orderedBackLog
 
 backLogPath = "start.ods"
 newBackLogPath = "result.ods"
